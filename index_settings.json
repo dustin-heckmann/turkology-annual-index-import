@@ -1,0 +1,235 @@
+{
+  "mappings": {
+    "citation": {
+      "properties": {
+        "amendments": {
+          "type": "text"
+        },
+        "authors": {
+          "properties": {
+            "first": {
+              "type": "text"
+            },
+            "last": {
+              "type": "text"
+            },
+            "middle": {
+              "type": "text"
+            },
+            "raw": {
+              "type": "text"
+            }
+          }
+        },
+        "comments": {
+          "type": "text"
+        },
+        "date": {
+          "properties": {
+            "end": {
+              "type": "date"
+            },
+            "raw": {
+              "type": "text"
+            },
+            "start": {
+              "type": "date"
+            }
+          }
+        },
+        "datePublished": {
+          "properties": {
+            "year": {
+              "type": "long"
+            }
+          }
+        },
+        "editors": {
+          "properties": {
+            "first": {
+              "type": "text"
+            },
+            "last": {
+              "type": "text"
+            },
+            "middle": {
+              "type": "text"
+            },
+            "raw": {
+              "type": "text"
+            }
+          }
+        },
+        "keywords": {
+          "properties": {
+            "code": {
+              "type": "keyword"
+            },
+            "nameDE": {
+              "type": "keyword"
+            },
+            "nameEN": {
+              "type": "keyword"
+            },
+            "raw": {
+              "type": "text"
+            },
+            "super": {
+              "properties": {
+                "code": {
+                  "type": "keyword"
+                },
+                "nameDE": {
+                  "type": "keyword"
+                },
+                "nameEN": {
+                  "type": "keyword"
+                },
+                "super": {
+                  "properties": {
+                    "code": {
+                      "type": "keyword"
+                    },
+                    "nameDE": {
+                      "type": "keyword"
+                    },
+                    "nameEN": {
+                      "type": "keyword"
+                    },
+                    "super": {
+                      "properties": {
+                        "code": {
+                          "type": "keyword"
+                        },
+                        "nameDE": {
+                          "type": "keyword"
+                        },
+                        "nameEN": {
+                          "type": "keyword"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "location": {
+          "type": "keyword"
+        },
+        "material": {
+          "type": "text"
+        },
+        "number": {
+          "type": "long"
+        },
+        "numberOfPages": {
+          "type": "text"
+        },
+        "numberOfVolumes": {
+          "type": "text"
+        },
+        "publishedIn": {
+          "properties": {
+            "issue": {
+              "type": "long"
+            },
+            "issueEnd": {
+              "type": "long"
+            },
+            "issueStart": {
+              "type": "long"
+            },
+            "journal": {
+              "type": "keyword"
+            },
+            "number": {
+              "type": "long"
+            },
+            "pageEnd": {
+              "type": "long"
+            },
+            "pageStart": {
+              "type": "long"
+            },
+            "raw": {
+              "type": "text"
+            },
+            "type": {
+              "type": "text"
+            },
+            "volume": {
+              "type": "long"
+            },
+            "volumeEnd": {
+              "type": "long"
+            },
+            "volumeStart": {
+              "type": "long"
+            },
+            "year": {
+              "type": "long"
+            },
+            "yearEnd": {
+              "type": "long"
+            },
+            "yearParentheses": {
+              "type": "long"
+            },
+            "yearStart": {
+              "type": "long"
+            }
+          }
+        },
+        "rawText": {
+          "type": "text"
+        },
+        "remainingText": {
+          "type": "text"
+        },
+        "reviews": {
+          "type": "text"
+        },
+        "series": {
+          "type": "text"
+        },
+        "taReferences": {
+          "properties": {
+            "number": {
+              "type": "long"
+            },
+            "volume": {
+              "type": "long"
+            }
+          }
+        },
+        "title": {
+          "type": "text"
+        },
+        "translators": {
+          "properties": {
+            "first": {
+              "type": "text"
+            },
+            "last": {
+              "type": "text"
+            },
+            "middle": {
+              "type": "text"
+            },
+            "raw": {
+              "type": "text"
+            }
+          }
+        },
+        "type": {
+          "type": "keyword"
+        },
+        "volume": {
+          "type": "long"
+        }
+      }
+    }
+  }
+}
